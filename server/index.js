@@ -17,9 +17,9 @@ const app = express();
 
 app.use(cors());
 
-app.use("/", (req, res) => {
-  res.send("Welcome to Manage crud Operation data Query with GraphQL");
-});
+// app.use("/", (req, res) => {
+//   res.send("Welcome to Manage crud Operation data Query with GraphQL");
+// });
 
 app.use(
   "/graphql",
